@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400i,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+  <title>Муж на час</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header__top">
+    <div class="header__logo">
+      <a href="index.html"><img class="header__logo-img" src="img/header__logo.png" alt=""></a>
+      <div class="header__header">
+        <div class="header__logo-title">Проблем-в-Доме.НЕТ</div>
+        <div class="header__logo-text">служба бытового сервиса</div>
+      </div>
+    </div>
+    <div class="header__social">
+      <div class="header__social-header">
+        <div class="header__social-title">
+          Пишите в мессенджеры 
+        </div>
+        <div class="header__socail-text">
+          Отвечаем в течение 2х минут (жмите на иконку)
+        </div>
+      </div>
+      <div class="header__socail-icon">
+        <a href="#"><img src="img/social__icon/social__telegram.png" alt=""></a>
+        <a href="#"><img src="img/social__icon/social__viber.png" alt=""></a>
+        <a href="#"><img src="img/social__icon/social__whatsap.png" alt=""></a>
+        <a href="#"><img src="img/social__icon/social__instagram.png" alt=""></a>
+      </div>
+    </div>
+    <div class="header__info">
+      <img src="img/icon/icon__tel.png" alt="">
+      <div class="header__info-block">
+        <a class="header__info-tel" href="tel:+74951496472">+7 (495) 149-64-72</a>
+        <span class="header__info-text">ежедневно с 8 до 22</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="header__menu">
+  <div class="container">
+    <div class="header__wrapper">
+      <nav class="nav__menu">
+        <a class="nav__link" href="#">Главная</a>
+        <a class="nav__link" href="#">Услуги</a>
+        <a class="nav__link" href="#">О компании</a>
+        <a class="nav__link" href="#">Отзывы</a>
+        <a class="nav__link" href="#">Юр. лицам</a>
+        <a class="nav__link" href="#">Вакансии</a>
+        <a class="nav__link" href="#">Для сми</a>
+        <a class="nav__link" href="#">Контакты</a>
+      </nav>
+      <div class="header__menu-search">
+        <form action="#">
+          <input class="header__menu-search-icon" type="search" name="search" placeholder="Поиск по сайту">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container">
+    <div class="header__wrap">
+      <h1 class="header__title">Услуга “Муж на час”</h1>
+      <div class="header__suptitle">Мы умеем:</div>
+      <div class="header__know">
+        <div class="header__know-col">
+          <div class="header__know-col-item">
+            <div class="header__know-col-item-title">
+              Услуги электрика
+            </div>
+          </div>
+          <div class="header__know-col-item">
+            <div class="header__know-col-item-title">
+              Услуги сантехника
+            </div>
+          </div>
+        </div>
+        <div class="header__know-col">
+          <div class="header__know-col-item">
+            <div class="header__know-col-item-title">
+              Сборка мебели
+            </div>
+          </div>
+          <div class="header__know-col-item">
+            <div class="header__know-col-item-title">
+              Многое другое
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__know-info">
+        <span class="header__know-text">Звоните:</span>
+        <a class="header__know-tel" href="tel:+74951496472">+7 (495) 149-64-72</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="company">
+      <div class="company__item">
+        <img src="img/company/company1.png" alt="">
+        <div class="company__title">
+          Выезд мастера 0 руб.
+        </div>
+        <div class="company__text">
+          Оплачиваются только фактически выполненные исполнителем работы
+        </div>
+      </div>
+      <div class="company__item">
+        <img src="img/company/company2.png" alt="">
+        <div class="company__title">
+          Приезд мастера от 30 мин.
+        </div>
+        <div class="company__text">
+          У нас более 200 мастеров в штате, что позволяет нам гарантировать быстрый приезд исполнителей
+        </div>
+      </div>
+      <div class="company__item">
+        <img src="img/company/company3.png" alt="">
+        <div class="company__title">
+          Оплата после работ
+        </div>
+        <div class="company__text">
+          Сначала видите результат работы, принимаем и только потом оплачиваете
+        </div>
+      </div>
+    </div>
+    <div class="company__info">
+      <button class="btn company__info-btn">
+        Заказать мастера
+      </button>
+      <span class="company__info-text">или</span>
+      <button class="company__info-btn">
+        Получить консультацию
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="tabs">
+    <div class="container">
+      <div class="tabs__wrap">
+        <a class="tabs__link" href="#">Порядок работ</a>
+        <a class="tabs__link" href="#">Цены</a>
+        <a class="tabs__link" href="#">Популярные вопросы</a>
+        <a class="tabs__link" href="#">Наши мастера</a>
+        <a class="tabs__link" href="#">Отзывы</a>
+        <a class="tabs__link" href="#">Контакты</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="tabs__content">
+      <div class="section__header">
+        <h2 class="section__title">
+          Порядок работы
+        </h2>
+      </div>
+      <div class="tabs__info">
+        <div class="tabs__item">
+          <div class="tabs__number">1</div>
+          <div class="tabs__title">
+            Консультация
+          </div>
+          <div class="tabs__text">
+            <p>Мы перезваниваем вам. Отвечаем на все вопросы, которые могут у вас возникнуть</p>
+          </div>
+        </div>
+        <div class="tabs__item">
+          <div class="tabs__number">2</div>
+          <div class="tabs__title">
+            Заказ
+          </div>
+          <div class="tabs__text">
+            <p>Согласовываем с вами дату, время, адрес и другие удобные для вас нюансы</p>
+          </div>
+        </div>
+        <div class="tabs__item">
+          <div class="tabs__number">3</div>
+          <div class="tabs__title">
+            Оценка
+          </div>
+          <div class="tabs__text">
+            <p>Мастер приезжает и оценивает объем и стоимость требуемых работ. Если вас все устраивает, то он приступает к их выполнению</p>
+          </div>
+        </div>
+        <div class="tabs__item">
+          <div class="tabs-number">4</div>
+          <div class="tabs__title">
+            Решение проблем
+          </div>
+          <div class="tabs__text">
+            <p>Мастер выполнит все оговоренные заранее работы и исправит при необходимости все замечания</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">
+        Услуги и цены
+      </h2>
+    </div>
+    <div class="services">
+      <div class="services__item">
+        <div class="services__content">
+          <img class="services__img" src="img/services/services.png" alt="">
+          <div class="services__content-item">
+            <div class="services__title">Услуги сантехника</div>
+            <div class="services__cena">от 290 руб</div>
+            <div class="services__more">подробнее</div>
+          </div>
+        </div>
+        <div class="services__info">
+          <ul>
+            <li class="services__text"><span>Подпункт номер один</span></li>
+            <li class="services__text"><span>Второй подпункт</span></li>
+            <li class="services__text"><span>Третий</span></li>
+            <li class="services__text"><span>Четвертый пункт</span></li>
+            <li class="services__text"><span>Пятый раздел длинное название</span></li>
+            <li class="services__text"><span>Шестой</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="services__item">
+        <div class="services__content">
+          <img class="services__img" src="img/services/services.png" alt="">
+          <div class="services__content-item">
+            <div class="services__title">Услуги сантехника</div>
+            <div class="services__cena">от 290 руб</div>
+            <div class="services__more">подробнее</div>
+          </div>
+        </div>
+        <div class="services__info">
+          <ul>
+            <li class="services__text"><span>Подпункт номер один</span></li>
+            <li class="services__text"><span>Второй подпункт</span></li>
+            <li class="services__text"><span>Третий</span></li>
+            <li class="services__text"><span>Четвертый пункт</span></li>
+            <li class="services__text"><span>Пятый раздел длинное название</span></li>
+            <li class="services__text"><span>Шестой</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="services__item">
+        <div class="services__content">
+          <img class="services__img" src="img/services/services.png" alt="">
+          <div class="services__content-item">
+            <div class="services__title">Услуги сантехника</div>
+            <div class="services__cena">от 290 руб</div>
+            <div class="services__more">подробнее</div>
+          </div>
+        </div>
+        <div class="services__info">
+          <ul>
+            <li class="services__text"><span>Подпункт номер один</span></li>
+            <li class="services__text"><span>Второй подпункт</span></li>
+            <li class="services__text"><span>Третий</span></li>
+            <li class="services__text"><span>Четвертый пункт</span></li>
+            <li class="services__text"><span>Пятый раздел длинное название</span></li>
+            <li class="services__text"><span>Шестой</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">
+        Популярные вопросы
+      </h2>
+    </div>
+    <div class="questions">
+      <div class="questions__item">
+        <div class="questions__col">
+          <div class="questions__title">
+            Я не нахожу нужной услуги, что делать?
+          </div>
+          <div class="questions__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit amet
+          </div>
+        </div>
+        <div class="questions__col">
+          <div class="questions__title">
+            Какова минимальная стоимость работы?
+          </div>
+          <div class="questions__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit amet
+          </div>
+        </div>
+        <div class="questions__col">
+          <div class="questions__title">
+            На других сайтах цены ниже, почему?
+          </div>
+          <div class="questions__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit amet
+          </div>
+        </div>
+      </div>
+      <div class="questions__item">
+        <div class="questions__col">
+          <div class="questions__title">
+            Как формируется стоимость работы?
+          </div>
+          <div class="questions__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit amet
+          </div>
+        </div>
+        <div class="questions__col">
+          <div class="questions__title">
+            Я могу вызвать частного мастера, это дешевле.
+          </div>
+          <div class="questions__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit amet
+          </div>
+        </div>
+        <div class="questions__col">
+          <div class="questions__title">
+            Как быстро приедит мастер?
+          </div>
+          <div class="questions__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit amet
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sale">
+      <div class="sale__header">
+        <div class="sale__title">
+          <span class="sale__text">Скидка</span> <span class="sale__number">10%</span> для новых клиентов
+        </div>
+        <form class="sale__form" action="#">
+          <input class="sale__input" type="tel" name="tel" placeholder="Номер телефона">
+          <button class="btn">Оставить заявку</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-masters">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">
+        Наши мастера
+      </h2>
+    </div>
+    <div class="masters">
+      <div class="masters__wrap">
+        <div class="masters__responsible">
+          <div class="masters__responsible-img">
+            <img src="img/masters/master.png" alt="">
+          </div>
+          <div class="masters__responsible-header">
+            <div class="masters__responsible-title">
+              За каждого мастера отвечаю - собственным именем!
+            </div>
+            <p class="masters__responsible-text">
+              Искренне Ваш, исполнительный директор компании “Проблем в доме нет”
+            </p>
+          </div>
+        </div>
+        <div class="masters__info">
+          <div class="masters__info-item">
+            <div class="masters__info-title">
+              Проверяем каждого специалиста
+            </div>
+            <p class="masters__info-text">
+              Документы, опыт, отзывы, реальные знания и навыки
+            </p>
+          </div>
+          <div class="masters__info-item">
+            <div class="masters__info-title">
+              Берем отзыв, после каждой заявки:
+            </div>
+            <p class="masters__info-text">
+              Мы продолжаем работать только с теми мастерами, у которых наивысшие оценки от клиентов
+            </p>
+          </div>
+          <div class="masters__info-item">
+            <div class="masters__info-title">
+              Разбираемся с жалобами и контролируем качество работ
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="masters__slider">
+      <div class="masters__wrapper">
+        <div class="masters__slider-header">
+          <div class="masters__slider-img">
+            <img src="img/masters/master.png" alt="">
+          </div>
+          <ul class="masters__slider-info">
+            <li class="masters__slider-info-text">Иван Васильевич <span>(электрик)</span></li>
+            <li class="masters__slider-info-text"><span>Опыт работы:</span> 16 лет</li>
+            <li class="masters__slider-info-text"><span>Работает у нас:</span> 3 года</li>
+            <li class="masters__slider-info-text"><span>Выполнил заказов:</span> 1243</li>
+          </ul>
+        </div>
+        <div class="masters__slider-text">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorembh euism</p>
+        </div>
+      </div>
+      <div class="masters__wrapper">
+        <div class="masters__slider-header">
+          <div class="masters__slider-img">
+            <img src="img/masters/master.png" alt="">
+          </div>
+          <ul class="masters__slider-info">
+            <li class="masters__slider-info-text">Иван Васильевич <span>(электрик)</span></li>
+            <li class="masters__slider-info-text"><span>Опыт работы:</span> 16 лет</li>
+            <li class="masters__slider-info-text"><span>Работает у нас:</span> 3 года</li>
+            <li class="masters__slider-info-text"><span>Выполнил заказов:</span> 1243</li>
+          </ul>
+        </div>
+        <div class="masters__slider-text">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorembh euism</p>
+        </div>
+      </div>
+      <div class="masters__wrapper">
+        <div class="masters__slider-header">
+          <div class="masters__slider-img">
+            <img src="img/masters/master.png" alt="">
+          </div>
+          <ul class="masters__slider-info">
+            <li class="masters__slider-info-text">Иван Васильевич <span>(электрик)</span></li>
+            <li class="masters__slider-info-text"><span>Опыт работы:</span> 16 лет</li>
+            <li class="masters__slider-info-text"><span>Работает у нас:</span> 3 года</li>
+            <li class="masters__slider-info-text"><span>Выполнил заказов:</span> 1243</li>
+          </ul>
+        </div>
+        <div class="masters__slider-text">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorembh euism</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">
+        Отзывы
+      </h2>
+    </div>
+    <div class="reviews">
+      <div class="reviews__website">
+        <div class="reviews__header">
+          <div class="reviews__title">
+            Отзывы с сайта
+          </div>
+          <div class="reviews__text">
+            <span>96 отзывов</span> (обновляются раз в неделю)
+          </div>
+        </div>
+        <div class="reviews__slider-left">
+          <div class="reviews__slider-wrap">
+            <div class="reviews__slider-img">
+              <img src="img/reviews/reviews1.jpg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+              <div class="reviews__slider-title">
+                Екатерина, Москва, 2342342423
+              </div>
+              <p class="reviews__slider-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+              </p>
+              <a class="reviews__slider-continuation" href="#">
+                Читать весь отзыв
+              </a>
+            </div>
+          </div>
+          <div class="reviews__slider-wrap">
+            <div class="reviews__slider-img">
+              <img src="img/reviews/reviews1.jpg" alt="">
+            </div>
+            <div class="reviews__slider-info">
+              <div class="reviews__slider-title">
+                Екатерина, Москва, 2342342423
+              </div>
+              <p class="reviews__slider-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+              </p>
+              <a class="reviews__slider-continuation" href="#">
+                Читать весь отзыв
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__writing">
+        <div class="reviews__header">
+          <div class="reviews__title">
+            Письменные отзывы
+          </div>
+          <div class="reviews__text">
+            <span>136 отзывов</span> (обновляются раз в неделю)
+          </div>
+        </div>
+        <div class="reviews__slider-right">
+          <div class="reviews__slider-img">
+            <img src="img/reviews/reviews2.jpg" alt="">
+          </div>
+          <div class="reviews__slider-img">
+            <img src="img/reviews/reviews2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sction">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">
+        Благодарственные письма от компаний
+      </h2>
+    </div>
+    <div class="thank">
+      <div class="thank__item">
+        <div class="thank__img">
+          <img src="img/thank/thank.jpg" alt="">
+        </div>
+        <div class="thank__info">
+          <div class="thank__title">
+            Благодарственное письмо от первого канала
+          </div>
+          <p class="thank__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+          </p>
+          <p class="thank__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+      <div class="thank__item">
+        <div class="thank__img">
+          <img src="img/thank/thank.jpg" alt="">
+        </div>
+        <div class="thank__info">
+          <div class="thank__title">
+            Благодарственное письмо от первого канала
+          </div>
+          <p class="thank__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+          </p>
+          <p class="thank__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-contact">
+  <div class="conatiner">
+    <div class="section__header">
+      <h2 class="section__title">
+        Контакты
+      </h2>
+    </div>
+    <div class="contact">
+      <div class="contact__maps">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A44b4df0a1d865958c72f78de81587c95fff3d7ecdeaee3e7b730d02fdfdd353d&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
+      </div>
+      <div class="container">
+        <div class="contact__info">
+          <div class="contact__info-item">
+            <a class="contact__info-tel" href="tel:+74951493273">+7 (495) 149-32-73</a>
+            <a class="contact__info-link" href="#">info@problem-v-dome.net</a>
+            <a class="contact__info-link" href="#">zakaz@problem-v-dome.net</a>
+            <p><span class="contact__info-text">Отдел кадров:</span> <a class="contact__info-tel" href="tel:84993221795">8(499) 322-17-95</a></p>
+          </div>
+          <div class="contact__adress">
+            <div class="contact__adress-title">
+              Адреса наших офисов:
+            </div>
+            <span class="contact__adress-text">г. Москва ул. Грузинский Вал дом 21 стр 1</span>
+            <span class="contact__adress-text">г. Москва ул. Товарищеский переулок дом 3</span>
+            <span class="contact__adress-text">г. Санкт-Петербург ул. Большой проспект В.О. д. 80</span>
+            <span class="contact__adress-text">г. Санкт-Петербург ул. Дунайский Проспект д. 40/1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="bottom__menu">
+    <div class="container">
+      <div class="bottom__wrapper">
+        <nav class="nav__menu">
+          <a class="nav__link" href="#">Главная</a>
+          <a class="nav__link" href="#">Услуги</a>
+          <a class="nav__link" href="#">О компании</a>
+          <a class="nav__link" href="#">Отзывы</a>
+          <a class="nav__link" href="#">Юр. лицам</a>
+          <a class="nav__link" href="#">Вакансии</a>
+          <a class="nav__link" href="#">Для сми</a>
+          <a class="nav__link" href="#">Контакты</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header__top">
+      <div class="header__logo">
+        <a href="index.html"><img class="header__logo-img" src="img/header__logo.png" alt=""></a>
+        <div class="header__header">
+          <div class="header__logo-title">Проблем-в-Доме.НЕТ</div>
+          <div class="header__logo-text">служба бытового сервиса</div>
+        </div>
+      </div>
+      <div class="header__social">
+        <div class="header__social-header">
+          <div class="header__social-title">
+            Пишите в мессенджеры 
+          </div>
+          <div class="header__socail-text">
+            Отвечаем в течение 2х минут (жмите на иконку)
+          </div>
+        </div>
+        <div class="header__socail-icon">
+          <a href="#"><img src="img/social__icon/social__telegram.png" alt=""></a>
+          <a href="#"><img src="img/social__icon/social__viber.png" alt=""></a>
+          <a href="#"><img src="img/social__icon/social__whatsap.png" alt=""></a>
+          <a href="#"><img src="img/social__icon/social__instagram.png" alt=""></a>
+        </div>
+      </div>
+      <div class="header__info">
+        <img src="img/icon/icon__tel.png" alt="">
+        <div class="header__info-block">
+          <a class="header__info-tel" href="tel:+74951496472">+7 (495) 149-64-72</a>
+          <span class="header__info-text">ежедневно с 8 до 22</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__copyright">
+    <div class="container">
+      <div class="footer__copyright-wrap">
+        <div class="footer__copyright-item">
+          <a href="#" class="footer__copyright-text">
+            Политика конфиденциальности
+          </a>
+          <a href="#" class="footer__copyright-text">
+            Пользовательское соглашение
+          </a>
+        </div>
+        <div class="footer__copyright-item">
+          <span class="footer__copyright-text">
+            Копирайт
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ScrollUp -->
+<div class="scrollup">
+  <div class="scrollup__item"></div>
+</div>
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
